@@ -1,0 +1,14 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: car-app-ht8
+  host: car-appt8
+  disk_quota: 1024M
+  services:
+  - Speech to Text-cd
+  - Text to Speech-g7
+  - car-app-ht8-cloudantNoSQLDB
+  - availability-monitoring-auto
+  - IBM Watson Machine Learning-car-t8
